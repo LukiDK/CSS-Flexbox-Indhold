@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #171b29;
+}
+
+#hero {
+  width: 1366px;
+  height: 510px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article {
+  display: flex;
+}
+
+img {
+  width: 5.6rem;
+  height: 5.6rem;
+    margin-right: 1.6rem;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+p {
+    max-width: 264px;
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
