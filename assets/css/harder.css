@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #171b29;
+}
+
+header {
+  margin-top: 7.2rem;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  flex-direction: column;
+  width: 466px;
+}
+
+header h1 {
+  color: #ffffff;
+  width: 466px;
+  font-size: 4.7rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.4rem;
+}
+
+header p {
+  width: 424px;
+  font-size: 1.6rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#hero {
+  max-width: 1366px;
+  height: 737px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article {
+  display: flex;
+  width: 528px;
+  height: 160px;
+  margin-bottom: 6.4rem;
+}
+
+img {
+  width: 16rem;
+  height: 16rem;
+  margin-right: 1.6rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+p {
+  width: 344px;
+  height: 74px;
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 2.4rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
